@@ -29,11 +29,14 @@ p {
 nav ul {
 	padding-left: 0;
 	display: flex;
+	margin: auto;
+	width: 60%;
 }
 
 nav ul li {
 	flex: 1;
 	list-style-type: none;
+	text-align: center;
 }
 
 nav ul li a,
@@ -56,14 +59,19 @@ nav ul li a:visited {
 	font-size: 2em;
 	display: block;
 	text-align: center;
-	border: 2px solid #efefef;
-	padding: 80px 15px;
+	border: 2px solid #6441a5;
+	margin: auto;
+    border-radius: 5px;
+    padding: 15px 0;
+	text-decoration: none;
+	color: #fff;
+	transition: background .25s ease-in-out;
+    width: 300px;
 }
 
 .live-btn:hover,
 .live-btn:focus {
-	background: #fff;
-	color: #E441A5;
+	background: #6441a5;
 }
 
 footer p {
