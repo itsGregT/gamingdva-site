@@ -10,3 +10,11 @@ body {
 body {
 	background: linear-gradient(#6441a5, #E441A5);
 }
+
+h1 {
+	font-family: 'Neucha', sans-serif;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+}
