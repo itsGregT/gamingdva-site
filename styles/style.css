@@ -5,6 +5,7 @@
 html,
 body {
 	min-height: 100vh;
+	margin: 0;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
 h1 {
 	font-family: 'Neucha', sans-serif;
 	color: #efefef;
+	margin: 0;
 }
 
 p {
