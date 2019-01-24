@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Bear Hugs";
-  src: url("/fonts/bearhugs.ttf") format("truetype"),
+  src: url("./styles/fonts/bearhugs.ttf") format("truetype"),
 }
 
 * {
@@ -13,7 +13,7 @@ body {
 }
 
 body {
-	background: linear-gradient(to bottom right, #6441a5, #E441A5);
+	background: linear-gradient(to bottom right, #6441a5, #2E1E4C);
 	margin: 0;
 	position: relative;
 }
@@ -52,6 +52,7 @@ nav ul li a:visited {
 	text-decoration: none;
 	font-size: 1.5em;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 
 #twitch-embed {
@@ -62,7 +63,7 @@ nav ul li a:visited {
 .live-btn,
 .live-btn:link,
 .live-btn:visited {
-	font-size: 1.5em;
+	font-size: 1em;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	display: block;
@@ -84,7 +85,7 @@ nav ul li a:visited {
 }
 
 footer p {
-	padding: 60px 5px 5px;
+	padding: 11% 5px 5px;
 	margin: 0;
 	font-size: .85em;
 }
