@@ -5,11 +5,12 @@
 html,
 body {
 	min-height: 100vh;
-	margin: 0;
 }
 
 body {
 	background: linear-gradient(#6441a5, #E441A5);
+	margin: 0;
+	position: relative;
 }
 
 h1 {
@@ -21,4 +22,11 @@ h1 {
 p {
 	font-family: 'Montserrat', sans-serif;
 	color: #efefef;
+}
+
+#twitch-embed {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
