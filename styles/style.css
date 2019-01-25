@@ -13,7 +13,7 @@ body {
 }
 
 body {
-	background: linear-gradient(to bottom right, #6441a5, #2E1E4C);
+	background: linear-gradient(to bottom right, #8A59E3, #24173B);
 	margin: 0;
 	position: relative;
 }
@@ -35,7 +35,7 @@ nav ul {
 	padding-left: 0;
 	display: flex;
 	margin: auto;
-	width: 60%;
+	width: 40%;
 }
 
 nav ul li {
