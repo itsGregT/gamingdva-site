@@ -13,7 +13,7 @@ body {
 }
 
 body {
-	background: linear-gradient(to bottom right, #aaa, #333);
+	background: linear-gradient(to bottom right, #6820A2, #9D219A);
 	margin: 0;
 	position: relative;
 }
@@ -35,6 +35,10 @@ p {
 }
 
 .flex-container {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%;);
 	display: flex;
 }
 
@@ -70,6 +74,13 @@ nav ul li a:visited {
 	font-weight: bold;
 	text-transform: uppercase;
 	border: 2px solid #efefef;
+	transition: all 0.25s ease-in-out;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+	background-color: #9D219A;
+	border: 2px solid #9D219A;
 }
 
 .responsive-media-container {
@@ -94,5 +105,6 @@ footer {
 }
 
 footer p {
-	padding: 5px;
+	padding: 10px;
+	margin: 0;
 }
