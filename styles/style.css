@@ -13,14 +13,14 @@ body {
 }
 
 body {
-	background: linear-gradient(to bottom right, #8A59E3, #24173B);
+	background: linear-gradient(to bottom right, #aaa, #333);
 	margin: 0;
 	position: relative;
 }
 
 header {
-	background-color: #24173B;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	background-color: #333;
+	box-shadow: 0 3px 15px rgba(0, 0, 0, .5);
 }
 
 h1 {
