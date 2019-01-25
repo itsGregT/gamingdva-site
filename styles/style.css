@@ -23,7 +23,7 @@ header {
 }
 
 h1 {
-	font-family: 'Bear Hugs', sans-serif;
+	font-family: 'Rancho', sans-serif;
 	color: #efefef;
 	margin: 0;
 	font-size: 4em;
@@ -74,13 +74,14 @@ nav ul li a:visited {
 	font-weight: bold;
 	text-transform: uppercase;
 	border: 2px solid #efefef;
+	border-radius: 5px;
 	transition: all 0.25s ease-in-out;
 }
 
 nav ul li a:hover,
 nav ul li a:focus {
 	background-color: #fff;
-	color: #fff;
+	color: #6820A2;
 }
 
 .responsive-media-container {
