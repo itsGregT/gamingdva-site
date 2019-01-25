@@ -18,6 +18,10 @@ body {
 	position: relative;
 }
 
+header {
+	text-align: center;
+}
+
 h1 {
 	font-family: 'Bear Hugs', sans-serif;
 	color: #efefef;
@@ -40,8 +44,6 @@ p {
 	align-self: center;
 }
 
-
-
 nav ul {
 	padding-left: 0;
 	display: flex;
@@ -49,7 +51,7 @@ nav ul {
 }
 
 nav ul li {
-	flex: 1;
+	flex: 1 33%;
 	list-style-type: none;
 	text-align: center;
 	display: inline-block;
@@ -59,9 +61,12 @@ nav ul li a,
 nav ul li a:link,
 nav ul li a:visited {
 	color: #fff;
+	display: block;
+	padding: 15px 0;
+	width: 80%;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: bold;
 	text-transform: uppercase;
 	border: 2px solid #efefef;
