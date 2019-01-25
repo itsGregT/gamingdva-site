@@ -35,6 +35,15 @@ p {
 	color: #efefef;
 }
 
+.flex-container {
+	display: flex;
+}
+
+.flex-half {
+	flex: 0 50%;
+	box-sizing: border-box;
+}
+
 nav ul {
 	padding-left: 0;
 	display: flex;
@@ -46,6 +55,7 @@ nav ul li {
 	flex: 1;
 	list-style-type: none;
 	text-align: center;
+	display: inline-block;
 }
 
 nav ul li a,
@@ -62,8 +72,8 @@ nav ul li a:visited {
 .responsive-media-container {
     position: relative;
     overflow: hidden;
-    padding-top: 56.25%;
-    
+    padding-top: 25.25%;
+
 }
 
 #twitch-embed {
@@ -75,34 +85,11 @@ nav ul li a:visited {
     border: 0;
 }
 
-.live-btn,
-.live-btn:link,
-.live-btn:visited {
-	font-size: 1em;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	display: block;
-	text-align: center;
-	border: 2px solid #6441a5;
-	margin: auto;
-    border-radius: 5px;
-    padding: 10px 0;
-	text-decoration: none;
-	color: #fff;
-	transition: background .25s ease-in-out;
-    width: 200px;
-    text-transform: uppercase;
-}
-
-.live-btn:hover,
-.live-btn:focus {
-	background: #6441a5;
+footer {
+	position: absolute;
+	bottom: 0;
 }
 
 footer p {
-	position: absolute;
-	bottom: 5px;
-	left: 5px;
-	margin: 0;
-	font-size: .85em;
+	padding: 5px;
 }
