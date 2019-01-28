@@ -33,7 +33,7 @@ h1 {
 	font-size: 3em;
 	flex: 1 60%;
 	align-self: center;
-	padding-left: 10px;
+	margin-left: 10px;
 }
 
 p {
@@ -64,7 +64,7 @@ nav {
 nav ul {
 	padding-left: 0;
 	display: flex;
-	margin: 10px auto;
+	margin: 0;
 }
 
 nav ul li {
@@ -80,7 +80,7 @@ nav ul li a:visited {
 	color: #fff;
 	margin: auto;
 	display: block;
-	padding: 15px 0;
+	padding: 20px 0;
 	width: 80%;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
@@ -92,8 +92,8 @@ nav ul li a:visited {
 
 nav ul li a:hover,
 nav ul li a:focus {
-	background-color: #fff;
-	color: #6820A2;
+	background-color: #6820A2;
+	text-decoration: underline;
 }
 
 .responsive-media-container {
