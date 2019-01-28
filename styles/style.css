@@ -16,13 +16,13 @@ body {
 	margin: 0;
 	position: relative;
 	background-color: #19171C;
-	border-bottom: 2px solid #efefef;
 }
 
 header {
 	display: flex;
 	background: linear-gradient(to right, #6820A2, #9D219A);
 	box-shadow: 0px 0px 20px #000;
+	border-bottom: 2px solid #efefef;
 }
 
 h1 {
